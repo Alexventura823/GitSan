@@ -121,7 +121,7 @@
 
     <!-- Popup con los botones Sí y No -->
     <div id="popup">
-        <p>PRECIONA 'SI' SI ME AMAS</p>
+        <p>¿Me quieres amor?</p>
         <button id="yesBtn" onclick="loveConfirmed()">Sí</button>
         <button id="noBtn" onmouseover="moveNoButton()">No</button>
     </div>
@@ -144,7 +144,7 @@
 
         // Función cuando se presiona "Sí"
         function loveConfirmed() {
-            alert("Sabía que me amabas ❤️");
+            alert("Sabía que me amabas jejeje ❤️");
             alert("By: Alex <3");
             document.getElementById('popup').style.display = 'none';
         }
