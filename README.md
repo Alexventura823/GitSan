@@ -20,6 +20,7 @@
             text-align: center;
             padding: 40px;
             max-width: 600px;
+            width: 90%;
         }
         h1 {
             color: #e91e63;
@@ -82,6 +83,29 @@
         #yesBtn:hover, #noBtn:hover {
             background-color: #d81b60;
         }
+
+        /* Ajuste para pantallas móviles */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .container {
+                padding: 20px;
+            }
+            #popup p {
+                font-size: 1rem;
+            }
+            #yesBtn, #noBtn {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -89,7 +113,7 @@
         <h1>¡Feliz Cumpleaños, Carita de Cereal!</h1>
         <h2>Sandi 🍓</h2>
         <div class="message">
-            <p>Niña hermosa, FELIZ CUMPLE, sabes que te amo mi amor y de todas las personas que conozco, eres la unica que me hace parar, el corazón obvio <3</p>
+            <p>Niña hermosa, FELIZ CUMPLE, sabes que te amo mi amor y de todas las personas que conozco, eres la única que me hace parar, el corazón obvio <3</p>
             <p>Por eso, TE AMO MUCHO </p>
         </div>
         <button class="button" onclick="showPopup()">Presiona aquí si me amas</button>
